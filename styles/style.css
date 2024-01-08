@@ -297,4 +297,43 @@ main{
     /* box-shadow: 0px 15px 10px -15px #111;     */
     /* border: 2px solid red; */
 }
+
+/* Gifts section style */
+#gifts{
+    margin-top: 100px;
+}
+.gifts-title-1{
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.gifts-title-2{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+}
+.gifts-descripton{
+    font-size: 16px;
+    color: rgba(7, 2, 17, 0.70);
+    margin-bottom: 45px;
+}
+.gifts-img-content-1,.gifts-img-content-2{
+    display: flex;
+    gap: 45px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+}
+.gifts-img-style{
+    width: 345px;
+    border:3px solid white;
+    border-radius: 16px;
+}
+
+.gifts-img-style:hover{
+    border: 3px solid red;
+    border-radius: 16px;
+    cursor: pointer;
+}
 /* main - end */
