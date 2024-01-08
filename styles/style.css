@@ -186,4 +186,59 @@ main{
     cursor: pointer;
 }
 
+/* offer section styles */
+#offer{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+.offer-content-1, .offer-content-3{
+    width: 30%;
+    padding-left: 5px;
+    padding-top: 105px;
+}
+.offer-img{
+    padding: 30px;
+    border: 15px solid red;
+    border-radius: 463px;
+    width: 350px;
+}
+
+.content-1-title{
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 12px;
+}
+.content-1-title-2{
+    font-size: 45px;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 22px;
+}
+.content-1-description{
+    font-size: 16px;
+    color: rgba(7, 2, 17, 0.60);
+    margin: 0;
+    
+}
+
+.content-3-title{
+    color: #FF0000;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 12px;
+}
+.content-3-description{
+    font-size: 16px;
+    color: rgba(7, 2, 17, 0.60);
+    margin: 0;
+   margin-bottom: 35px;
+}
 /* main - end */
