@@ -241,4 +241,60 @@ main{
     margin: 0;
    margin-bottom: 35px;
 }
+
+/* Sale section styles */
+.sale-text-content{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.sale-title-1{
+    font-size: 22px;
+    font-weight: 500;
+}
+.sale-title-2{
+    margin: 0;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.sale-description{
+    width: 74%;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+.img-content-1{
+    float: right;
+    background-image: url("../images/Rectangle 1.png");
+    background-position: right;
+    height: 380px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 2px solid red; */
+}
+.sale-img-1{
+    /* border: 2px solid blue; */
+    padding-right: 240px;
+    padding-top: 45px;
+    width: 270px;
+    /* border: 2px solid red; */
+}
+
+.img-content-2{
+    background-image: url("../images/Rectangle 2.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 162px;
+    /* border: 2px solid red; */
+}
+.sale-img-2{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    width: 495px;
+    padding-left: 120px;
+    /* box-shadow: 0px 15px 10px -15px #111;     */
+    /* border: 2px solid red; */
+}
 /* main - end */
